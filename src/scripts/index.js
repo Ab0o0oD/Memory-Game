@@ -49,11 +49,9 @@ class Game {
         }
 
         // TODO 4: Shuffle the cards-array here to randomise the order
-
         let currentIndex = cards.length, randomIndex;
 
         while (currentIndex !== 0) {
-
             // Pick a remaining element...
             randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex--;
@@ -62,7 +60,6 @@ class Game {
             let temp = cards[currentIndex]
             cards[currentIndex] = cards[randomIndex]
             cards[randomIndex] = temp
-
         }
 
         // New game button
@@ -125,8 +122,8 @@ class Game {
                     this.firstFlippedCard.flip()
                     clickedCard.flip()
                 }, 500)
-
             }
+
             setTimeout(() => {
                 this.firstFlippedCard = null; // Reset variable
             }, 700)

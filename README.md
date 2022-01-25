@@ -42,8 +42,14 @@ There are a lot of areas you can choose to focus on after you've implemented the
 
 *Remember that you should not spend more than 3 hours on this project at the most.*
 ## What did you focus on?
-- Please add a list here of the ideas you tried to implement. Optionally add a sentence or two about what you would improve further if you had more time.
-- 
+Please add a list here of the ideas you tried to implement. Optionally add a sentence or two about what you would improve further if you had more time.
+- Mainly, I focused on functionality just added some styling for buttons and card labels. If I had more time First I would hunt some bugs which I igored intentionally :).
+  Then I would improve the design and make it more responsive and accessible.  
+
+***Ideas for further development:***
+1. more fancy photos for the cards.
+2. sound effects on card click.
+3. adding some animation for game board.
 
 # If you need help, got stuck or have feedback
 If you need any help or have some feedback about this test, please contact the person that sent you this test, or send an email to ole-martin.grotterud@schibsted.com.
